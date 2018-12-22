@@ -18,7 +18,7 @@ The transform section was performed in the following steps:
 1. Remove unnecessary columns from the dataframes
 2. Create a column in each dataframe that has the school name in lower case with all the spaces and special characters removed
 3. Merge the dataframes together using left join on the merge_name column created in step 2.
-4. Using the college scorecard data fill in missing values for Acceptance Rate and Starting Salary.
+4. Using the college scorecard data to fill in missing values for Acceptance Rate and Starting Salary.
 
 ## Load
 The final dataframe was stored as a CSV file.  This was chosen so anyone can use the transformed data later for statistical and visual analysis.
